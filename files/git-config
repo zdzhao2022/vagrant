@@ -1,0 +1,5 @@
+[user]
+	name = Zhendong Zhao
+	email = zdzhao@gmail.com
+[core]
+	editor = notepad++ -multiInst -nosession

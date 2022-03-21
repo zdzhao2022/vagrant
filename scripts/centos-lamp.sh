@@ -19,7 +19,7 @@ service httpd start
 yum install -y php php-cli php-common php-devel php-mysql
 
 # MySQL
-yum install mariadb-server mariadb-libs mariadb
+yum install -y mariadb-server mariadb-libs mariadb
 
 service mariadb start
 

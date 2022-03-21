@@ -26,6 +26,9 @@ service mariadb start
 mysql -u root -e "SHOW DATABASES";
 
 # Download Starter Content
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/zdzhao2022/vagrant/main/files/index.html
+sudo -u vagrant wget -q https://raw.githubusercontent.com/zdzhao2022/vagrant/main/files/info.php
 
 service httpd restart
 
